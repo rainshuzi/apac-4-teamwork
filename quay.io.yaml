@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: jian-ping-shu-secret
+data:
+  .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJxdWF5LmlvIjogewogICAgICAiYXV0aCI6ICJhbWxoYmw5d2FXNW5YM05vZFN0cWFXRnVjR2x1WjNOb2RUbzFNa3RGV1RST1VrUklTRTlFVTFaSVdrRldORlF3UXpBMk9WSlFVa2hHT1U1RFJrWlpURTlYVjFKUFRscFROa0ZUVHpSRE1FNVhRMHM1T1VveldWcEkiLAogICAgICAiZW1haWwiOiAiIgogICAgfQogIH0KfQ==
+type: kubernetes.io/dockerconfigjson
